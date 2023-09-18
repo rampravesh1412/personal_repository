@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        a:link {
+            background-color: yellow;
+        }
+
+        a:visited {
+            background-color: cyan;
+        }
+
+        a:hover {
+            background-color: lightgreen;
+        }
+
+        a:active {
+            background-color: hotpink;
+        }
+
+        table,
+        td,
+        th {
+            border: 1px solid black;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Styling a link with background-color property</h2>
+
+    <p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
+    <p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
+    <p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
+
+
+    <h2>Let the table borders collapse</h2>
+
+    <table>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+        </tr>
+        <tr>
+            <td>Peter</td>
+            <td>Griffin</td>
+        </tr>
+        <tr>
+            <td>Lois</td>
+            <td>Griffin</td>
+        </tr>
+    </table>
+
+
+    <h2>Striped Table</h2>
+
+    <p>For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table
+        rows:</p>
+
+    <table>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Points</th>
+        </tr>
+        <tr>
+            <td>Peter</td>
+            <td>Griffin</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>Lois</td>
+            <td>Griffin</td>
+            <td>$150</td>
+        </tr>
+        <tr>
+            <td>Joe</td>
+            <td>Swanson</td>
+            <td>$300</td>
+        </tr>
+        <tr>
+            <td>Cleveland</td>
+            <td>Brown</td>
+            <td>$250</td>
+        </tr>
+    </table>
+
+
+
+</body>
+
+</html>

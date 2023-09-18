@@ -1,0 +1,1 @@
+document.getElementById('add').innerHTML=5+6;
