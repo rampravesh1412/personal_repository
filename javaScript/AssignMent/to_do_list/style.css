@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    background-color: rgb(58, 53, 53);
+}
+
+#inputBx{
+    width: 550px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.box li {
+    position: relative;
+    display: block;
+    align-items: center;
+    background-color: white;
+    border: 2px solid rgb(210, 55, 24);
+    margin-top: 4px;
+    border-radius: 10px;
+    width: 400px;
+    height:40px ;
+    background-color: rgb(63, 63, 153);
+    
+}
+
+#list li{
+    list-style: none;
+    cursor: pointer;
+}
+
+/* #deleteBtn{
+    position: relative;
+    bottom: 32px;
+    left: 440px;
+    background-color: rgb(58, 53, 53);
+    
+} */
+
+/* #btndelete{
+    position: absolute;
+    left: 500px;
+    list-style: none;
+} */
+
+#list li.done{
+    background-color: red;
+}
+
+#list li i{
+    position: absolute;
+    right: -40px;
+    top: 2px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249, 7, 193);
+    border-radius: 50%;
+}
+
+#list li i::before{
+    content:  '';
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background-color: #fff;
+    transform: rotate(45deg);
+}
+
+#list li i::after{
+    content:  '';
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background-color: #fff;
+    transform: rotate(-45deg);
+}

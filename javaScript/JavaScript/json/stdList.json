@@ -1,0 +1,23 @@
+
+{
+    "student" : [{
+        "stdName" : "Rpk_yadav",
+        "stdAge" : 19
+     },
+
+     {
+        "stdName" : "swagOP",
+        "stdAge" : 19
+     },
+
+     {
+        "stdName" : "UNIXX",
+        "stdAge" : 19
+     },
+
+     {
+        "stdName" : "HereRpk",
+        "stdAge" : 19
+     }
+    ]
+}

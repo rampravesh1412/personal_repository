@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <button onclick="myFunction()">Click ME</button>
+    <p id="itsP"></p>
+
+    <script>
+        const points = [40, 100, 1, 5, 25, 10];
+        document.getElementById("itsP").innerHTML = points;
+
+        function myFunction() {
+            points.sort(function () { 
+                return 0.5 - Math.random()
+            });
+            document.getElementById("itsP").innerHTML = points;
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.healthyH1 {
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.healthyp1 {
+  text-align: justify;
+}
+
+.fitnessformula{
+    font-size: 30px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    /* text-decoration: underline; */
+
+}
+
+.fitnessimg{
+    border: 2px solid rgb(233,233,233);
+    opacity: 0.9;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.fitnessimg:hover{
+    opacity: 1;
+    transform: scale(1.02);
+    transition: all .3s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+    z-index: 9999;
+}
+
+.btncourse{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bxshadow{
+  /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+.card1{
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.card2{
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.card3{
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+} 
+
+.personalcardclass{
+  opacity: 0.8;
+}
+
+.personalcardclass:hover{
+  opacity: 1;
+    transform: scale(1.02);
+    transition: all .3s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+    z-index: 9999;
+  
+}
+
+

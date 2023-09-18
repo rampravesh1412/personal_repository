@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function fun(num,target){
+            let len = num.length;
+             for(var i =0 ; i < len ;i++){
+              if((num[i]+num[i+1]) == target ){
+              return [i ,i+1];
+              }
+           }
+        }
+
+        console.log(fun([3,2,4],6));
+    </script>
+</body>
+</html>

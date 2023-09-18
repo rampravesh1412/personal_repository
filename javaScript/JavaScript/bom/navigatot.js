@@ -1,0 +1,16 @@
+console.log(navigator.userAgent);
+console.log(navigator.canShare);
+console.log(navigator.clearAppBadge);
+console.log(navigator.cookieEnabled);
+console.log(navigator.getGamepads);
+console.log(navigator.language);
+console.log(navigator.doNotTrack);
+console.log(navigator.geolocation);
+console.log(navigator.locks);
+console.log(navigator.storage);
+console.log(navigator.appName);
+console.log(navigator.appVersion);
+console.log(navigator.appCodeName);
+console.log(navigator.userAgent);
+console.log(navigator.platform);
+console.log(navigator.javaEnabled);

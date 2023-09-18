@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="end">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" contendt="width=device-width, initial-scale=1.0">
+    <title>Documendt</title>
+</head>
+
+<body>
+
+    <script>
+        const sortedArray = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26];
+
+
+        function sortedArrayFun (sortedArray, key) {
+             let start = 0;
+              let end = sortedArray.length - 1;
+           
+
+            while (start <= end) {
+                 let bw = Math.floor((start + end) / 2);
+
+                if (sortedArray[bw] === key) {
+                    return bw;
+                } else if (sortedArray[bw] < key) {
+                    start = bw + 1;
+                } else {
+                    end = bw - 1;
+                }
+            }
+            return -1;
+
+        }
+        console.log(sortedArrayFun(sortedArray, 22))
+    </script>
+</body>
+
+</html>
