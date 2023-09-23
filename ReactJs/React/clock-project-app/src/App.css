@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+button {
+  background-color: cadetblue;
+  padding: 8px 16px;
+  margin-right: 5%;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: green;
+  color: white;
+}
