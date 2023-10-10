@@ -8,12 +8,7 @@ function App() {
   const [count, changeValue] = useState(0);
 
   const addFun = () => {
-    // changeValue(count + 1);
-    // changeValue(count + 1);
-    // changeValue(count + 1);
-    // changeValue(count + 1);
-    // changeValue(count + 1);
-    // changeValue(count + 1);
+    
 
     changeValue((prevValue) => prevValue + 1);
     changeValue((prevValue) => prevValue + 1);
