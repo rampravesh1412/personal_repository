@@ -1,0 +1,7 @@
+.Card1-Wrapper {
+  width: 40%;
+  height: 70vh;
+  display: flex;
+  margin: auto;
+  background-color: rgb(95, 70, 70);
+}

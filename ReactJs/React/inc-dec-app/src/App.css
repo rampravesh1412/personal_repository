@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(233, 173, 173);
+}
+.App-wrapper {
+  display: flex;
+  /* margin: auto; */
+  align-items: center;
+  justify-content: center;
+  margin-top: 40vh;
+  color: rgb(25, 25, 169);
+}
+
+.data-btn {
+  padding: 8px 18px;
+}
+
+span {
+  padding: 8px 18px;
+  font-size: xx-large;
+}
+
+.Reset-wrapper {
+  display: flex;
+  padding: 10px 20px;
+  margin-top: 15px;
+  margin-left: 30px;
+  background-color: rgb(25, 25, 169);
+  color: #ffff;
+}
