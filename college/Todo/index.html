@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gct web-design</title>
+    <link rel="shortcut icon" href="https://www.gct.org.in/images/g-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./todo.css">
+
+</head>
+
+
+<body>
+
+    <!-- **** Background Circles Start **** -->
+    <div class="bg-circles">
+        <div class="circle-1"></div>
+        <div class="circle-2"></div>
+        <div class="circle-3"></div>
+        <div class="circle-4"></div>
+    </div>
+
+    <!-- **** List Container Start Here **** -->
+
+    <div class="container">
+        <div class="todo-app">
+            <h2><img src="https://www.gct.org.in/images/g-logo.png" alt="">To-Do List
+            </h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your task ...">
+                <button onclick="addTask()" id="add">Add</button>
+            </div>
+            <ul id="list-container">
+            </ul>
+        </div>
+    </div>
+
+    <script src="./todo.js"></script>
+</body>
+
+</html>

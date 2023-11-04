@@ -1,0 +1,13 @@
+.nav-wrapper {
+  display: flex;
+}
+
+.nav-list-parents ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.nav-list-parents ul li {
+  padding-left: 10vw;
+}

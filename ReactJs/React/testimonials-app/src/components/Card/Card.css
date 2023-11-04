@@ -1,0 +1,29 @@
+.name-job-wrapper p {
+  /* display: flex; */
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+}
+/* .name-job-wrapper p */
+
+.faquote {
+  text-align: center;
+}
+
+.faangle-btn {
+  display: flex;
+  justify-content: center;
+}
+.suprise-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.suprise-btn button {
+  padding: 8px 18px;
+  background-color: fuchsia;
+}
+.discription {
+  display: flex;
+  align-items: center;
+}

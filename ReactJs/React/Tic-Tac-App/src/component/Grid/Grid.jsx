@@ -7,24 +7,19 @@ function Grid({ numberOfCards }) {
   const [board, setBoard] = useState(Array(numberOfCards).fill(""));
   const [turn, setTurn] = useState(true);
   const [winner, setWinner] = useState(null);
-
   function play(index) {
     if (turn == true) {
       board[index] = "o";
     } else {
       board[index] = "x";
     }
-
     const win = isWinner(board, turn ? "o" : "x");
-
     if (win) {
       setTurn(win);
     }
-
     setBoard([...board]);
     setTurn(!turn);
   }
-
   return (
     <div className="grid-wrapper">
       {winner && (

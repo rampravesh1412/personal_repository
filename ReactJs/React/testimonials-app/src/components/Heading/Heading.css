@@ -1,0 +1,9 @@
+.heading-parents {
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.parent-heading {
+  display: flex;
+  justify-content: center;
+}

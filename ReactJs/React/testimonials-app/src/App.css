@@ -1,0 +1,10 @@
+.app-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-wrapper {
+  width: 25%;
+  border: 2px solid red;
+}

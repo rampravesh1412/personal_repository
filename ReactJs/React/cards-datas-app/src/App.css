@@ -1,0 +1,9 @@
+.App-Heading {
+  text-align: center;
+}
+
+.App-Heading span {
+  border: 3px dashed rgb(48, 15, 119);
+  padding: 10px 40px;
+  border-radius: 15px;
+}
